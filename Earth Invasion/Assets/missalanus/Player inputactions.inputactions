@@ -1,0 +1,34 @@
+{
+    "name": "Player inputactions",
+    "maps": [
+        {
+            "name": "map",
+            "id": "6f04b3fe-3991-4d16-aee5-31cba996f385",
+            "actions": [
+                {
+                    "name": "tap action",
+                    "type": "Button",
+                    "id": "06feffc9-53c8-47f4-9b2a-c569d2429661",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0fa40aa7-ba86-4ea7-b919-420b5324543a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tap action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f92543d0f5a36804e865440151ac1128
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deathVFX: {fileID: 3025253361232418313, guid: c7180fcc701ce244697fecdf60509258, type: 3}
+  - hitVFX: {fileID: 3025253361232418313, guid: fb423d22d3d4e3e4ba5dc7f38ac2ebca, type: 3}
+  - enemydistroyed: {fileID: 8300000, guid: 8d603a697e469594897246f86d1bc7fd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

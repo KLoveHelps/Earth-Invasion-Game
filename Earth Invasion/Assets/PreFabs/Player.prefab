@@ -616,16 +616,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CodeDelay: 2
-  deathVFX: {fileID: 0}
-  hitVFX: {fileID: 0}
   win: {fileID: 8300000, guid: 8d603a697e469594897246f86d1bc7fd, type: 3}
   winParticles: {fileID: 0}
-  PlayerhitPoints: 100
   death: {fileID: 8300000, guid: 713145eab8fa20d4d8504029da1a34eb, type: 3}
   looseParticles: {fileID: 0}
+  enemydistroyed: {fileID: 8300000, guid: 015cfad0cce09d943a5f5f9c94773df4, type: 3}
   GameOverUI: {fileID: 0}
-  WinUI: {fileID: 0}
-  ScoreUI: {fileID: 0}
 --- !u!4 &8719219617465996476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 656016d0375f4404da47af85275167ee, type: 3}

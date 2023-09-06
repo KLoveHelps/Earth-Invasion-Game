@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: b76726fedbb1d104ea6d14b9449b1078
   - enabled: 1
-    path: Assets/Scenes/LaserRunner1.unity
+    path: Assets/Scenes/Earth Invasion.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: c01db1a86368dbd468ea0060bf2f98cc, type: 2}

@@ -77,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817549927044242612, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_Name
-      value: Shipfighter2
+      value: Jet1
       objectReference: {fileID: 0}
     - target: {fileID: 6626983606573205006, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_RootOrder
@@ -168,7 +168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817549927044242612, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_Name
-      value: Shipfighter2 (3)
+      value: Jet4
       objectReference: {fileID: 0}
     - target: {fileID: 6626983606573205006, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_RootOrder
@@ -259,7 +259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817549927044242612, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_Name
-      value: Shipfighter2 (1)
+      value: Jet2
       objectReference: {fileID: 0}
     - target: {fileID: 6626983606573205006, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_RootOrder
@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817549927044242612, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_Name
-      value: Shipfighter2 (2)
+      value: Jet3
       objectReference: {fileID: 0}
     - target: {fileID: 6626983606573205006, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_RootOrder
@@ -441,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817549927044242612, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_Name
-      value: Shipfighter2 (4)
+      value: Jet5
       objectReference: {fileID: 0}
     - target: {fileID: 6626983606573205006, guid: bd98511a8e8bf5d479833c3ac93fe433, type: 3}
       propertyPath: m_RootOrder

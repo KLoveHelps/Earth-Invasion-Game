@@ -22,6 +22,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 8ac4285c3aba9b244b15cfd9e688becc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: cannons.002
     second: {fileID: 2100000, guid: b72b8fd3d9736da4b96de04fc3a7f6d5, type: 2}
   - first:

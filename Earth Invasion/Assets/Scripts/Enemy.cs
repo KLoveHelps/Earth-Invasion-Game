@@ -45,12 +45,13 @@ public class Enemy : MonoBehaviour
         vfx.transform.parent = parentGameObject.transform;
         hitPoints --;
         scoreBoard.IncreaseScore(scorePerHit);
+        audioSource.PlayOneShot(enemydistroyed);
     }
 
     void KillEnemy()
     {
-
-        audioSource.PlayOneShot(enemydistroyed);
+        
+        
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parentGameObject.transform;
         Destroy(gameObject);

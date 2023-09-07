@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8080089695677935230}
   - component: {fileID: 5156029288325210587}
   - component: {fileID: 6947103794688857361}
-  - component: {fileID: -7076126438124574168}
   - component: {fileID: -7222981064273850872}
   - component: {fileID: -6853730951734553718}
+  - component: {fileID: -7076126438124574168}
   m_Layer: 0
   m_Name: Shipebbom
   m_TagString: Untagged
@@ -93,23 +93,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-7076126438124574168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8892901070647145668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92543d0f5a36804e865440151ac1128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3025253361232418313, guid: ac6432731f1dd984393556b6a3d23f40, type: 3}
-  hitVFX: {fileID: 3025253361232418313, guid: fb423d22d3d4e3e4ba5dc7f38ac2ebca, type: 3}
-  scorePerHit: 15
-  hitPoints: 2
-  enemydistroyed: {fileID: 8300000, guid: 015cfad0cce09d943a5f5f9c94773df4, type: 3}
 --- !u!64 &-7222981064273850872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -220,3 +203,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-7076126438124574168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8892901070647145668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92543d0f5a36804e865440151ac1128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathVFX: {fileID: 3025253361232418313, guid: ac6432731f1dd984393556b6a3d23f40, type: 3}
+  hitVFX: {fileID: 3025253361232418313, guid: fb423d22d3d4e3e4ba5dc7f38ac2ebca, type: 3}
+  scorePerHit: 15
+  hitPoints: 2
+  enemydistroyed: {fileID: 8300000, guid: 015cfad0cce09d943a5f5f9c94773df4, type: 3}

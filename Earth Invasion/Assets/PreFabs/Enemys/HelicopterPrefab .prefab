@@ -161,6 +161,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3a3a815667a5c754fa5af6c4a6ff6a11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90f496b5684bef948bf07f0ec944f9ae, type: 2}
+    - target: {fileID: -6803603717579038977, guid: 3a3a815667a5c754fa5af6c4a6ff6a11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a794e3579d4b4549b50ac6ff0e0e300, type: 2}
     - target: {fileID: 919132149155446097, guid: 3a3a815667a5c754fa5af6c4a6ff6a11, type: 3}
       propertyPath: m_Name
       value: Helicopter_v05_UV
@@ -181,6 +189,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.1799977
       objectReference: {fileID: 0}
+    - target: {fileID: 3147718139858773932, guid: 3a3a815667a5c754fa5af6c4a6ff6a11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a794e3579d4b4549b50ac6ff0e0e300, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a3a815667a5c754fa5af6c4a6ff6a11, type: 3}
 --- !u!4 &4211010240530603086 stripped
@@ -193,6 +205,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -8972064065159473282, guid: 3a3a815667a5c754fa5af6c4a6ff6a11, type: 3}
   m_PrefabInstance: {fileID: 4465946842062306213}
   m_PrefabAsset: {fileID: 0}
+--- !u!320 &4004408139047204891
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4505545458226687195}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: f44ab9bd19812544abbce8b6f72b8bf5, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1487599992815602639, guid: f44ab9bd19812544abbce8b6f72b8bf5, type: 2}
+    value: {fileID: 1806319893}
+  m_ExposedReferences:
+    m_References: []
 --- !u!95 &1806319893
 Animator:
   serializedVersion: 5
@@ -213,22 +244,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!320 &4004408139047204891
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4505545458226687195}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f44ab9bd19812544abbce8b6f72b8bf5, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 1487599992815602639, guid: f44ab9bd19812544abbce8b6f72b8bf5, type: 2}
-    value: {fileID: 1806319893}
-  m_ExposedReferences:
-    m_References: []

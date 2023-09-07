@@ -44,9 +44,9 @@ AudioSource:
   m_GameObject: {fileID: 3152536990390358695}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b568cdfe7073aa24cb74d251c954731d, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
   hitVFX: {fileID: 3025253361232418313, guid: fb423d22d3d4e3e4ba5dc7f38ac2ebca, type: 3}
   scorePerHit: 15
   hitPoints: 2
-  enemydistroyed: {fileID: 8300000, guid: 8d603a697e469594897246f86d1bc7fd, type: 3}
+  enemydistroyed: {fileID: 8300000, guid: 713145eab8fa20d4d8504029da1a34eb, type: 3}
 --- !u!65 &1820542501869522793
 BoxCollider:
   m_ObjectHideFlags: 0

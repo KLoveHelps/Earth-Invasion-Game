@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    
+    public AudioSource BGM;
     const string MasterVolume = "MasterVolume";
     
-
+    
     public static AudioManager instance;
     private void Awake()
     {
@@ -23,7 +23,12 @@ public class AudioManager : MonoBehaviour
         }
     }
   
-
+    public void ChangeBGM(AudioClip music)
+    {
+        BGM.Stop();
+        BGM.clip = music;
+        BGM.Play();
+    }
 
 }
 
